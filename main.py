@@ -1,4 +1,10 @@
 import pygame
+from apple import Apple
+
+A = Apple(3, 2)
+print(A.coord)
+A.randomize(12, 12)
+print(A.coord)
 
 pygame.init()
 screen = pygame.display.set_mode((1280, 720))
